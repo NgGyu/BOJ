@@ -1,4 +1,3 @@
-//에라스토테네스의 체 이용
 #include <iostream>
 
 using namespace std;
