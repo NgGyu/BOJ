@@ -32,15 +32,15 @@ int main(void)
 
 void f(size_t sz) {
     if (sz == k) {
-        for (int i = 0; i < k; i++) {
+        for (int i = 0; i < n; i++) {
             cout << a[i];
-            if (i != k - 1) cout << ' ';
+            if (i != n - 1) cout << ' ';
         }
         cout << '\n';
         return;
     }
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < k; i++) {
         if (isUsed[i] == 1) {
             continue;
         }
